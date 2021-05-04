@@ -1,0 +1,10 @@
+/** 
+used to change th width of the span
+*/
+span{
+    width: 600px;
+}
+
+body{
+    background-color: gray;
+}

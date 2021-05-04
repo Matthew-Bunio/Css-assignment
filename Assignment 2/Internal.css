@@ -1,0 +1,9 @@
+/**
+used to change the background colour of the span
+*/
+span{
+    background-color: red;
+}
+body{
+    background-color: grey;
+}

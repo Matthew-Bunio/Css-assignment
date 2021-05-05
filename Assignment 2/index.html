@@ -3,7 +3,7 @@ Name: Matthew Bunio
 Course: Software Development 20S
 Teacher: Mr. Hardman
 School: Pembina Trails Early College
-Date Last Modified: May 4 -->
+Date Last Modified: May 5 -->
 
 
 <!--
@@ -70,6 +70,10 @@ Date Last Modified: May 4 -->
             h5{
                 position: relative;
             }
+
+
+       
+           
          
             span{
                 
@@ -82,12 +86,10 @@ Date Last Modified: May 4 -->
              float: right;
          }
 
-            div  {
-                transition-property: width;
-                 transition-duration: 2s;
-                 transition-timing-function: linear;
-                 transition-delay: 1s;
-               }
+      
+
+
+
 
             /**
              * Styles all paragraphs to have a font size of 24 pixels.
@@ -126,7 +128,7 @@ Date Last Modified: May 4 -->
                 margin: 4px;
                 font-size: 20px;
             }
-
+            
             /**
              * Styles all links with a class of navLinks to add
              * 5 pixels of padding, 4 pixels of margin, a border
@@ -140,10 +142,25 @@ Date Last Modified: May 4 -->
                 background-color: #eeffee;
                 color: black;
             }
+            div {
+             width: 100px;
+             height: 100px;
+             background: black;
+             transition: width 2s;
+             }
+            
+             #div1 {transition-timing-function: ease;}
+
+         div:hover {
+             width: 300px;
+            }
         </style>
     </head>
-      
-    
+    <body>
+        <div id="div1"></div><br>
+
+       
+
         <nav>
             <ul>
                 <li>
@@ -160,7 +177,7 @@ Date Last Modified: May 4 -->
         </h3>
         <main>
             <h1>Warzone</h1>
-            <p>Intorducing Call of Duty Warzone a brand new way to play because unlike every other Cod where its the standard multiplayer, Story and maybe Zombies
+            <p>Introducing Call of Duty Warzone a brand new way to play because unlike every other Cod where its the standard multiplayer, Story and maybe Zombies
                 this is a Battle Royale where you get the bring all of your favourite guns from both Moden Warfare and Cold War to compete against other players on the battlefield
             </p>
             <p>To start off your first game of Warzone you will be dropped into Verdansk a huge open map with 21 Poi's to drop at or if you a more casual player just find a random house to
@@ -170,11 +187,11 @@ Date Last Modified: May 4 -->
         <h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/0E44DClsX5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </h2>
-        <div>
+        
             <h4>
              Warzone Season Three is <span style="color:red">Here</span> 
             </h4>  
-        </div>
+        
            <h5>
             <img src="https://www.gameinformer.com/sites/default/files/styles/full/public/2021/04/19/c5c40599/black_ops_cold_war_warzone_season_3.jpg">
            </h5>
@@ -182,7 +199,7 @@ Date Last Modified: May 4 -->
          
         
      
-      
+           <div id="div1"></div><br>
       
     </body>
 </html>
